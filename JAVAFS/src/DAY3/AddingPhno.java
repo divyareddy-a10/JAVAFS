@@ -60,6 +60,8 @@ public class AddingPhno {
 			this.weight = weight;
 			this.phnno=phnno;
 		}
+		
+		
 
 		void display()
 		{

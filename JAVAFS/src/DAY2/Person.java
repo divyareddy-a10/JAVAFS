@@ -1,11 +1,11 @@
 package DAY2;
 
 public class Person {
-	private String fname;
-	private String lname;
-	private char gender;
-	private int age;
-	private double weight;
+	protected String fname;
+	protected String lname;
+	protected char gender;
+	protected int age;
+	protected double weight;
 	
 	
 	
@@ -21,7 +21,7 @@ public class Person {
 	public void setLname(String lname) {
 		this.lname = lname;
 	}
-	public char getGender() {
+	public char getGender(String string) {
 		return gender;
 	}
 	public void setGender(char gender) {
